@@ -20,20 +20,6 @@
 # else Mark <65:
 #     print ("fail")
 
-# Mark = int(input("what grade did i recieve "))
-# def determine_grade(scores):
-#     if scores >= 90 and <= 100:
-#         return 'A'
-#     elif scores >= 80 and <= 89:
-#         return 'B'
-#     elif scores >= 70 and <= 79:
-#         return 'C'
-#     elif scores >= 60 and <= 69:
-#         return 'D'
-#     elif scores >= 50 and <= 59:
-#         return 'E'
-#     else:
-#         return 'F'
 
 # scores = int(input("what grade did i recieve "))
 
