@@ -35,19 +35,34 @@
 #     else:
 #         return 'F'
 
-scores = int(input("what grade did i recieve "))
+# scores = int(input("what grade did i recieve "))
 
-if scores >95:
+# if scores >95:
+#     print ("Distinction")
+# elif scores >= 90 and scores <= 95:
+#     print ('A')
+# elif scores >= 80:
+#     print('B')
+# elif scores >= 70:
+#     print ('C')
+# elif scores >= 60:
+#     print ('D')
+# elif scores >= 50:
+#     print ('E')
+# else:
+#     print ('F')
+
+mark = int(input("What was your score? "))
+
+if mark>=95:
     print ("Distinction")
-elif scores >= 90 and scores <= 95:
-    print ('A')
-elif scores >= 80:
-    print('B')
-elif scores >= 70:
-    print ('C')
-elif scores >= 60:
-    print ('D')
-elif scores >= 50:
-    print ('E')
+elif mark >=90:
+    print("A*")
+elif mark >=80:
+    print("A")
+elif mark >=70:
+    print("B")
+elif mark >=60:
+    print("C")
 else:
-    print ('F')
+    print("Fail")
