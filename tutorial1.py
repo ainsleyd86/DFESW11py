@@ -4,7 +4,7 @@ var3 = "Ainsley"
 
 print (var1,var2,var3)
 
-word1 = "Good"
+word1 = "Have A Good"
 word2 = "Day"
 word3 = "Ainsley"
 word4 = 'Again'
